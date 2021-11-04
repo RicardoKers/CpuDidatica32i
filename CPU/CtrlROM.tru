@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<truthTable>
+  <variables>
+    <variable name="A"/>
+    <variable name="B"/>
+    <variable name="C"/>
+    <variable name="D"/>
+    <variable name="E"/>
+  </variables>
+  <results>
+    <result>
+      <name>0</name>
+      <values class="BoolTable">01100100111100111111110000000000</values>
+    </result>
+    <result>
+      <name>1</name>
+      <values class="BoolTable">01110000000010011111110000000000</values>
+    </result>
+    <result>
+      <name>2</name>
+      <values class="BoolTable">00011111100001100000000000000000</values>
+    </result>
+    <result>
+      <name>3</name>
+      <values class="BoolTable">01100001101111011111110000000000</values>
+    </result>
+    <result>
+      <name>4</name>
+      <values class="BoolTable">XXXXXX01101111XXXXXXXXXXXXXXXXXX</values>
+    </result>
+    <result>
+      <name>5</name>
+      <values class="BoolTable">00000011100000000000000000000000</values>
+    </result>
+    <result>
+      <name>6</name>
+      <values class="BoolTable">XXXXXXXXXXXXXX11010101XX01010101</values>
+    </result>
+    <result>
+      <name>7</name>
+      <values class="BoolTable">XXXXXXXXXXXXXX00110011XX00110011</values>
+    </result>
+    <result>
+      <name>8</name>
+      <values class="BoolTable">XXXXXXXXXXXXXX00001111XX00001111</values>
+    </result>
+    <result>
+      <name>9</name>
+      <values class="BoolTable">00000000000000111111110000000000</values>
+    </result>
+    <result>
+      <name>10</name>
+      <values class="BoolTable">00000000000001000000000000000000</values>
+    </result>
+    <result>
+      <name>11</name>
+      <values class="BoolTable">01010100011010000000000011111111</values>
+    </result>
+    <result>
+      <name>12</name>
+      <values class="BoolTable">00101000000100000000000000000000</values>
+    </result>
+    <result>
+      <name>13</name>
+      <values class="BoolTable">XXXXXXXXXXXXXXXXXXXXXX10XXXX0000</values>
+    </result>
+    <result>
+      <name>14</name>
+      <values class="BoolTable">00000000000000000000001100001111</values>
+    </result>
+    <result>
+      <name>15</name>
+      <values class="BoolTable">XXXXXXXXXXXXXXXXXXXXXX01XXXX0000</values>
+    </result>
+  </results>
+</truthTable>
