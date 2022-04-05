@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Dip4</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>58</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Clock</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>81</string>
+        </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>10</int>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>InE</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>92</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1300" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1200" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1200" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>out0</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>67,68,78,82,84,86,88,90</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1300" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>out1</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>75,73,71,70,72,76,74,69</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1300" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="1020" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes/>
+      <pos x="1080" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes/>
+      <pos x="1080" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+      </elementAttributes>
+      <pos x="660" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>1,1,1,1,1,1,1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Dip1</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>61</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Dip2</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>66</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Dip3</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>57</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>S1</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>54</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>S2</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>56</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>S3</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>55</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>reserv</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>100</string>
+        </entry>
+      </elementAttributes>
+      <pos x="560" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>PromIn</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>PC</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="980" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+      </elementAttributes>
+      <pos x="1280" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>CPU8Bit32i.dig</elementName>
+      <elementAttributes/>
+      <pos x="680" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>WE</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1220" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>OE</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1220" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="1080" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Addr</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1220" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>RamIn</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PinControl</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="600" y="620"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="880" y="320"/>
+      <p2 x="920" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="320"/>
+      <p2 x="680" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="320"/>
+      <p2 x="580" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="320"/>
+      <p2 x="1220" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1180" y="480"/>
+      <p2 x="1200" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="640"/>
+      <p2 x="1080" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="640"/>
+      <p2 x="640" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="260"/>
+      <p2 x="640" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="260"/>
+      <p2 x="1160" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="1180" y="580"/>
+      <p2 x="1200" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="580"/>
+      <p2 x="900" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="420"/>
+      <p2 x="580" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="420"/>
+      <p2 x="960" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="420"/>
+      <p2 x="1220" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="360"/>
+      <p2 x="680" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="360"/>
+      <p2 x="580" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="360"/>
+      <p2 x="960" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="520"/>
+      <p2 x="1200" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="300"/>
+      <p2 x="940" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="300"/>
+      <p2 x="680" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="620"/>
+      <p2 x="1200" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="620"/>
+      <p2 x="680" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="620"/>
+      <p2 x="600" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="460"/>
+      <p2 x="580" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="400"/>
+      <p2 x="580" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="340"/>
+      <p2 x="980" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="340"/>
+      <p2 x="580" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="340"/>
+      <p2 x="680" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="500"/>
+      <p2 x="620" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="500"/>
+      <p2 x="1000" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="500"/>
+      <p2 x="1080" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1160" y="500"/>
+      <p2 x="1200" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="500"/>
+      <p2 x="1300" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="500"/>
+      <p2 x="960" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="500"/>
+      <p2 x="1020" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1280" y="660"/>
+      <p2 x="1300" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="280"/>
+      <p2 x="900" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="280"/>
+      <p2 x="680" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="280"/>
+      <p2 x="1180" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="440"/>
+      <p2 x="580" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="600"/>
+      <p2 x="1300" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="600"/>
+      <p2 x="1080" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="1160" y="600"/>
+      <p2 x="1200" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="600"/>
+      <p2 x="660" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="380"/>
+      <p2 x="580" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="380"/>
+      <p2 x="1080" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="380"/>
+      <p2 x="1220" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="540"/>
+      <p2 x="1080" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="540"/>
+      <p2 x="640" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="260"/>
+      <p2 x="640" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="360"/>
+      <p2 x="640" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="360"/>
+      <p2 x="960" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="380"/>
+      <p2 x="960" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="280"/>
+      <p2 x="900" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="580"/>
+      <p2 x="580" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="420"/>
+      <p2 x="660" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="320"/>
+      <p2 x="920" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="540"/>
+      <p2 x="920" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="500"/>
+      <p2 x="1000" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="1160" y="260"/>
+      <p2 x="1160" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1160" y="500"/>
+      <p2 x="1160" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="340"/>
+      <p2 x="620" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1180" y="280"/>
+      <p2 x="1180" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="1180" y="480"/>
+      <p2 x="1180" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="300"/>
+      <p2 x="940" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="320"/>
+      <p2 x="940" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="540"/>
+      <p2 x="540" y="640"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
